@@ -5,6 +5,7 @@
 
 var express = require('express');
 var router = require('./application/router');
+//No code assistance
 var http = require('http');
 var path = require('path');
 var dbPath = 'mongodb://localhost/pfc';
@@ -15,6 +16,8 @@ var mongoose = require('mongoose');
 var models = {
     User: require('./application/model/user')(mongoose)
 };
+
+
 
 var app = express();
 
